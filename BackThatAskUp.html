@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+
+    <title>Elimate Recent Google News Articles from Search Results: Back That Ask Up</title>
+
+   
+    
+    
+  </head>
+  <body>
+   <div>
+     <h2>
+       Google News Search: Back That Ask Up
+     </h2>
+     <h3>
+       Enter a Google News query and the number of days/months/years' worth of the most recent news items you want to eliminate. 
+       <br>This tool will construct a date-restricted search query in Google News and open it in a new window.
+     </h3>
+     <h4>
+       New political shenanigans disrupting your search? Back that ask up!<br>
+       A celebrity feud mucking up your results? Back that ask up! <br>
+       Just don't want to remember the last couple of days? BACK THAT ASK UP!
+     </h4>
+     <h5>
+       BTAU won't work perfectly because sometimes dynamic content breaks the date-based search. But it will eliminate a lot of recent news articles.
+     </h5>
+     
+        <label>Google News Query</label>
+        <input type="text" class="gnews-query" value="Dallas Mavericks">
+                           
+<p>
+  
+     </p>
+    </div>
+    <div>
+    
+      <p>
+        <label>Days' worth of results to remove from Google News search results (Max 7):</label>
+      <input type="number" class="daycut" min="1" max="7" value="3">
+      <input type="button" value="Go" name="submit_date" id="btn_day" onclick="day_search()">
+      
+      
+      </p>
+      <div class="daysis"></div>
+      <p>
+        
+      <label>Months' worth of results to remove from Google News search results (Max 12):</label>
+      <input type="number" min="1" max="12" value="2" class="monthcut">
+       <input type="button" value="Go" name="submit_date" id="btn_month" onclick="month_search()">
+      </p>
+      <p>
+     
+      <label>Years' worth of results to remove from Google News search results (Max 20):</label>
+      <input type="number" min="1" max="20" value="1" class="yearcut">
+          <input type="button" value="Go" name="submit_date" id="btn_year" onclick="year_search()">
+ </p>
+      
+    </div>
+    
+    <script src="BackThatAskUp.js"></script>
+
+  </body>
+</html>
